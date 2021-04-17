@@ -1,0 +1,73 @@
+.navbar-section{
+    padding:0px;
+}
+.navbar-section .nav-link {
+    color: rgba(0,0,0,.5);
+    font-size: 14px;
+}
+
+.add-shop-mobile{
+    display: none;
+}
+.add-shop-mobile{
+    display: block;
+    background: #007bff;
+    color: #fff !important;
+    padding: 8px 15px;
+}
+
+.menu-navbar {
+    padding: 3px 0px;
+}
+.advanced-search-tab-bar .nav-item .active {
+    color: #000;
+    border-color: #000;
+}
+.nav-link>img{
+    max-height: 18px;
+    width: 18px;
+}
+.add-shop .nav-link{
+    color: #fff !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ffffff;
+    color: #03A9F4;
+    border-bottom: 2px solid #03A9F4;
+    border-radius: 0;
+}
+tab-in-sec .nav-pills .nav-link.active,.tab-in-sec .nav-pills .show>.nav-link {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 25px;
+    padding: 5px 12px;
+    margin: 5px 0px 3px;
+}
+
+.tab-prod .nav-pills .nav-link.active,.tab-prod .nav-pills .show>.nav-link {
+    background-color: #ffffff;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    border-radius: 0;
+}
+.tab-prod .nav-pills .nav-link.active,.tab-prod .nav-pills .show>.nav-link {
+    background-color: #ffffff;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    border-radius: 0;
+}
+
+.advanced-search-tab-bar .nav-item .active {
+    color: #000;
+    border-color: #000;
+}
+
+.add-shop{
+    background: #00A7E6;
+}
+
+.add-shop{
+    display: none;
+}
+
