@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import data from "../data.json";
-import "../css/bootstrap.rtl.min.css";
+
 import "./Header.css";
 class Header extends React.Component {
   render() {
@@ -90,7 +90,7 @@ class Header extends React.Component {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  <img src="/static/images/shopping-bag.svg" alt="سبد خرید" />
+                  <img src={data.icons.shopBag} alt="سبد خرید" />
                 </a>
                 <div className="dropdown-menu dropdown-primary sh-cart cls-cart">
                   <span>تعداد کالا</span>

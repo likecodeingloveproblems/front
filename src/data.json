@@ -1,6 +1,7 @@
 {
     "icons":{
         "logo" : "images/LogoSVG.svg",
-        "userOnline":"images/useronline.svg"
+        "userOnline":"images/useronline.svg",
+        "shopBag":"images/shopping-bag.svg"
     }
 }
