@@ -2,6 +2,10 @@
     "icons":{
         "logo" : "images/LogoSVG.svg",
         "userOnline":"images/useronline.svg",
-        "shopBag":"images/shopping-bag.svg"
+        "shopBag":"images/shopping-bag.svg",
+        "footer":{
+            "Nakhl":"images/footer/iconNakhl.png",
+            "senf":"images/footer/socialcer23.png"
+        }
     }
 }

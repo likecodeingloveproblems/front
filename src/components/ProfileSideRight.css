@@ -1,0 +1,109 @@
+.profile-sidebar-main{
+    text-align: center;
+}
+.profile-sidebar .priceline{
+    display: inline;
+}
+.profile-sidebar-main button{
+    margin: 7px 5px;
+    border: none;
+    width: 100px;
+    height: 130px;
+    background: #F5F5F5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #ccc;
+}
+
+.profile-sidebar-main button i{
+    font-size: 32px;
+    padding: 10px;
+}
+
+.profile-sidebar-main button.activebtn{
+    border-radius: 5px;
+    margin: 7px 5px;
+    background-color: #9436ff;
+    border: none;
+    width: 100px;
+    height: 130px;
+    color: #fff;
+}
+.profile-sidebar-main h5{
+    font-size: 14px;
+    font-weight: 300;
+}
+.profile-sidebar{
+    text-align: center;
+}
+
+.profile-sidebar img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 35px auto 15px;
+}
+
+.profile-sidebar h4{
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.profile-sidebar h5{
+    background: #fff;
+    color: #000;
+    padding: 9px 10px;
+    font-size: 14px;
+    display: inline-block;
+    margin: 12px auto;
+    border-radius: 20px;
+}
+
+.profile-sidebar h5>img {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+.profile-sidebar-icon{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.profile-sidebar-icon>a>div{
+    margin: 3px 3px;
+    background-color: #6824b6;
+    color: #fff;
+    padding: 1px 7px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.priceline {
+    color: #EC406A;
+    font-size: 16px;
+    margin: 5px;
+    display: block;
+    font-weight: 600;
+}
+
+.best-prod-price .priceline {
+    font-size: 20px;
+}
+
+.body-top-profile .priceline {
+    display: inline;
+}
+
+.new-message-count {
+    display: inline-block;
+    position: relative;
+    font-size: 10px;
+    bottom: -3px;
+    margin-left: -19px;
+    background-color: #ffc06a;
+    color: #000;
+    border-radius: 50%;
+    padding: 0px 5px;
+    right: 12px;
+    min-width: 1px;
+}

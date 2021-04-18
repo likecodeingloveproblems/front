@@ -1,0 +1,59 @@
+
+
+
+
+
+.dashboard{
+    background: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+}
+.dashboard .file-image-dash{
+    display: none;
+}
+.hr-line-under-dashboard {
+    content:" ";
+    border-bottom: 1px solid #e5e5e5;
+    display: block;
+    margin-bottom: 10px;
+}
+.dashboard-filters {
+    margin-bottom: 15px;
+}
+.dashboard .form-control {
+    border-radius: 5px !important;
+}
+
+.dashboard .table tr {
+    text-align: center;
+}
+.dashboard .table th, .dashboard .table td {
+    word-break: break-word;
+    width: 30px;
+    text-align: right;
+}
+
+.dashboard-padding {
+    padding: 25px 35px;
+}
+
+.centertext{
+    text-align: center;
+}
+
+
+.form-row-child {
+    width: 100%;
+}
+
+.message-profile .message-profile-form-control,
+.factor-profile .factor-profile-form-control,
+.order-profile .alert-profile-form-control {
+    height: 32px;
+    text-align: center;
+    width: 69%;
+    display: inline;
+}

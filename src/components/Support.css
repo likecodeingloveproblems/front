@@ -1,0 +1,116 @@
+.factor-profile , .order-profile , .profile-box, .message-profile, .new-message, .invitation-profile{
+    background: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.list-support{
+    margin-bottom: 145px;
+}
+.list-support ul{
+    padding-right: 10px;
+}
+.list-support ul li{
+    margin-bottom: 5px;
+}
+.list-support ul li>span{
+    float: left;
+}
+
+.activelistsupport{
+    color: #007bff;
+}
+
+.status-support{
+    position: absolute;
+    bottom: 0px;
+}
+.status-support ul{
+    padding-right: 10px;
+}
+
+.dontread-point{
+    color: #000;
+}
+
+.read-point{
+    color: #19ae1e;
+}
+
+.response-point{
+    color: #3b86ff;
+}
+
+
+.close-point{
+    color: #909090;
+}
+
+.col-list-ticket{
+    border-left: 1px solid #f1f1f1;
+}
+
+.form-ticket button{
+    float: left;
+}
+
+.form-ticket>h5{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.form-ticket-floats h5,
+.form-ticket-floats h6 {
+    float: right;
+}
+.form-ticket-floats span.ticket-date {
+    display: block;
+    float: left;
+}
+
+.dashboard .form-control {
+    border-radius: 5px !important;
+}
+
+.message-profile .message-profile-form-control,
+.factor-profile .factor-profile-form-control,
+.order-profile .alert-profile-form-control {
+    height: 32px;
+    text-align: center;
+    width: 69%;
+    display: inline;
+}
+
+.off-question-form-group {
+    /* align-self: center; */
+    margin-top: 29px;
+}
+
+@media (max-width: 767px) {
+    .off-question {
+        margin: 0;
+        font-size: 16px;
+    }
+    .off-question-form-group {
+        margin: 0 0 40px 0;
+    }
+}
+
+.message-profile .message-profile-form-group,
+.factor-profile .factor-profile-form-group,
+.order-profile .alert-profile-form-group {
+    padding: 0px;
+    display: inline;
+}
+
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import './ProfileSideRight.css';
 class ProfileSideRight extends React.Component {
   render() {
     return (
@@ -43,6 +43,44 @@ class ProfileSideRight extends React.Component {
               </div>
             </a>
           </div>
+        </div>
+        <div className="profile-sidebar-main">
+          <a href="/profile/dashboard/">
+            <button className="activebtn">
+              <i className="fas fa-id-badge"></i>
+              <h5>داشبورد</h5>
+            </button>
+          </a>
+          <a href="/profile/transaction/">
+            <button>
+              <i className="fad fa-clipboard-list"></i>
+              <h5>تراکنش ها</h5>
+            </button>
+          </a>
+          <a href="/profile/factor/">
+            <button>
+              <i className="fas fa-file-invoice-dollar"></i>
+              <h5>صورت حساب ها</h5>
+            </button>
+          </a>
+          <a href="/profile/ticketing/">
+            <button>
+              <i className="fad fa-user-headset"></i>
+              <h5>پشتیبانی</h5>
+            </button>
+          </a>
+          <a href="/profile/shops/">
+            <button>
+              <i className="fas fa-store"></i>
+              <h5>مدیریت حجره</h5>
+            </button>
+          </a>
+          <a href="/profile/review/">
+            <button>
+              <i className="fad fa-comments-alt"></i>
+              <h5>نقد ها و نظرات</h5>
+            </button>
+          </a>
         </div>
       </div>
     );
