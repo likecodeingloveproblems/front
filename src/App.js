@@ -10,6 +10,7 @@ import ProfileSideRight from "./components/ProfileSideRight";
 import Footer from "./components/Footer";
 import Dashboard from "./components/Dashboard";
 import Support from "./components/Support.js";
+import StoreManager from "./components/StoreManager"
 
 class App extends React.Component {
   render() {
@@ -19,7 +20,7 @@ class App extends React.Component {
       <Navbar />,
       <div className="row">
         <ProfileSideRight />
-        <Support/>
+        <StoreManager/>
       </div>,
 
       <Footer />,
