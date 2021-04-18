@@ -20,7 +20,9 @@ import Dashboard from "./components/Dashboard";
 import Support from "./components/Support.js";
 import StoreManager from "./components/StoreManager";
 import BackgroundTop from "./components/BackgrandTopPro";
-
+import Transaction from "./components/Transaction";
+import Factor from "./components/Factor";
+import Review from "./components/Review";
 
 
 class App extends React.Component {
@@ -39,11 +41,11 @@ class App extends React.Component {
         <ProfileSideRight />
         <Switch>
           <Route path="/Dashboard" component={Dashboard}></Route>
-          <Route path="/transaction" component={Support}></Route>
-          <Route path="/factor" component={Support}></Route>
+          <Route path="/transaction" component={Transaction}></Route>
+          <Route path="/factor" component={Factor}></Route>
           <Route path="/ticketing" component={Support}></Route>
           <Route path="/shops" component={StoreManager}></Route>
-          <Route path="/review" component={Support}></Route>
+          <Route path="/review" component={Review}></Route>
         
 
 
