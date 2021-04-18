@@ -2,6 +2,12 @@ import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 import ReactDom from "react-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import "./components/Fontawsomeicons";
 
 import { FaBeer } from 'react-icons/fa';
@@ -19,23 +25,36 @@ import BackgroundTop from "./components/BackgrandTopPro";
 
 class App extends React.Component {
   render() {
-    return [
-      
+    return (
+      <Router>
 
-      <BackgroundTop />,
+      <BackgroundTop />
       
-      <Header />,
-      <BackgroundTop />,
+      <Header />
+      <BackgroundTop />
 
-      <Navbar />,
+      <Navbar />
 
       <div className="row">
         <ProfileSideRight />
-        <StoreManager />
-      </div>,
+        <Switch>
+          <Route path="/Dashboard" component={Dashboard}></Route>
+          <Route path="/transaction" component={Support}></Route>
+          <Route path="/factor" component={Support}></Route>
+          <Route path="/ticketing" component={Support}></Route>
+          <Route path="/shops" component={StoreManager}></Route>
+          <Route path="/review" component={Support}></Route>
+        
 
-      <Footer />,
-    ];
+
+
+        </Switch>
+      </div>
+
+      <Footer />
+
+      </Router>
+    );
   }
 }
 
