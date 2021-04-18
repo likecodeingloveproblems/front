@@ -1,10 +1,11 @@
 import React ,{ Component} from "react";
+import "./Backgrandtop.css";
 
 
 class BackgroundTop extends Component {
     render() {
 return (
-    <section className="bg-profile-top"></section>
+    <div className="bg-profile-top"></div>
 );
 
 
@@ -12,3 +13,5 @@ return (
 
 
 }
+
+export default BackgroundTop;

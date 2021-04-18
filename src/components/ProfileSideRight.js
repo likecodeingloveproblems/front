@@ -1,5 +1,16 @@
+
 import React, { Component } from "react";
 import './ProfileSideRight.css';
+import { FiLock ,FiLogOut} from  "react-icons/fi";
+import {ImBell} from "react-icons/im";
+import {BsClipboardData} from "react-icons/bs";
+import {RiUserHeartFill} from  "react-icons/ri";
+import {FaFileInvoiceDollar,FaIdBadge} from "react-icons/fa";
+import {AiOutlineComment,AiOutlineShop} from "react-icons/ai";
+import {CgProfile} from "react-icons/cg";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import data from "../data.json";
+
 class ProfileSideRight extends React.Component {
   render() {
     return (
@@ -7,10 +18,12 @@ class ProfileSideRight extends React.Component {
         <div className="profile-sidebar-site">
           <div className="profile-sidebar">
             <img
-              src="/media/CACHE/images/media/Pictures/Profile/Ws2foi/f46681569bc2e433208d0b89ab1b42b1.jpg"
+              src=""
               alt="profile-img"
             />
+            
             <h4>میلاد حسنی</h4>
+            
             <a href="/profile/wallet/">
               <h5>
                 <img
@@ -18,6 +31,7 @@ class ProfileSideRight extends React.Component {
                   alt="."
                 />
                 کیف پول :
+                
                 <span className="priceline">
                   <span className="numbersprice">0</span>
                 </span>
@@ -28,18 +42,18 @@ class ProfileSideRight extends React.Component {
           <div className="profile-sidebar-icon">
             <a href="/accounts/logout/">
               <div>
-                <i className="fal fa-sign-out"></i>
+                <i > <FiLogOut/></i>
               </div>
             </a>
             <a href="/profile/message/">
               <div>
                 <div className="new-message-count"></div>
-                <i className="far fa-bell"></i>
+                <i ><ImBell/></i>
               </div>
             </a>
             <a href="/accounts/forget-password-mobile/">
               <div>
-                <i className="fal fa-lock"></i>
+                <i ><FiLock/></i>
               </div>
             </a>
           </div>
@@ -47,37 +61,41 @@ class ProfileSideRight extends React.Component {
         <div className="profile-sidebar-main">
           <a href="/profile/dashboard/">
             <button className="activebtn">
-              <i className="fas fa-id-badge"></i>
+              <i > <FaIdBadge/></i>
+              
+              
               <h5>داشبورد</h5>
+
+              
             </button>
           </a>
           <a href="/profile/transaction/">
             <button>
-              <i className="fad fa-clipboard-list"></i>
+              <i ><BsClipboardData/></i>
               <h5>تراکنش ها</h5>
             </button>
           </a>
           <a href="/profile/factor/">
             <button>
-              <i className="fas fa-file-invoice-dollar"></i>
+              <i ><FaFileInvoiceDollar/></i>
               <h5>صورت حساب ها</h5>
             </button>
           </a>
           <a href="/profile/ticketing/">
             <button>
-              <i className="fad fa-user-headset"></i>
+              <i ><RiUserHeartFill/></i>
               <h5>پشتیبانی</h5>
             </button>
           </a>
           <a href="/profile/shops/">
             <button>
-              <i className="fas fa-store"></i>
+              <i ><AiOutlineShop/></i>
               <h5>مدیریت حجره</h5>
             </button>
           </a>
           <a href="/profile/review/">
             <button>
-              <i className="fad fa-comments-alt"></i>
+              <i ><AiOutlineComment/></i>
               <h5>نقد ها و نظرات</h5>
             </button>
           </a>

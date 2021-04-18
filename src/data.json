@@ -6,6 +6,9 @@
         "footer":{
             "Nakhl":"images/footer/iconNakhl.png",
             "senf":"images/footer/socialcer23.png"
+        },
+        "Profile":{
+            "clipboar":"images/icons/clipboardlistsolid.svg"
         }
     }
 }
